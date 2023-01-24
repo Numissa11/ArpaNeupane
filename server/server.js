@@ -6,8 +6,7 @@ app.get("/api", (req, res) => {
     res.json(
     {
         "users" : ['Marc', 'Daniel', 'Melissa'],
-    }
-    )
+    })
 })
 
 app.listen(port, () => console.log('server started on port : ' + port))
