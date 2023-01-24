@@ -1,4 +1,4 @@
-constexpress = require ('express')
+const express = require ('express')
 const app = express()
 const port = 5000
 
@@ -10,4 +10,4 @@ app.get("/api", (req, res) => {
     )
 })
 
-app.listen(port, () => console.log('server started on port' + port))
+app.listen(port, () => console.log('server started on port : ' + port))
