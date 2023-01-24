@@ -5,7 +5,7 @@ const port = 5000
 app.get("/api", (req, res) => {
     res.json(
     {
-        "users" : ['Marc', 'Daniel', 'Melissa'],
+        "users" : ['Marc', 'Daniel', 'Melissa']
     })
 })
 
